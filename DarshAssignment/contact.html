@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize/normalize.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Laptop</title>
+</head>
+<body>
+    <!--Darsh Patel-->
+    <!--Dpatel6300@conestogac.on.ca-->
+    <header>
+        <h1>Choose your first Laptop</h1>
+        <img id="logo" src="image/logo.jpeg" alt="Laptop Logo">
+    </header>
+
+    <div class="navbar" role="navigation" aria-label="main menu">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="">Contact Us</a>
+        </nav>
+    </div>
+
+    <aside>
+        <h2>New Laptops</h2>
+        <ul>
+            <li>Hp Pavilion plus 14</li>
+            <li>Apple MacBook Air</li>
+            <li>Microsoft Surface Laptop</li>
+            <li>Lenovo ThinkPad X1 Carbon Gen11</li>
+            <li>Dell XPS 15</li>
+            <li>APple MacBook Pro 16-inch</li>
+        </ul>
+    </aside>
+
+    <main>
+        <h2>Contact Us</h2>
+        <form action="#" method="POST" autocomplete="on">
+            <fieldset>
+              <legend>Personal Information</legend>
+              <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required autofocus placeholder="Name">
+              </div>
+              <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="name@domain.com">
+              </div>
+              <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required placeholder="XXX-XXX-XXXX">
+              </div>
+              <div>
+                <label for="employment-status">Employment Status:</label>
+                <select id="employment-status" name="employment-status" required>
+                  <option value="" disabled selected>Select Option</option>
+                  <option value="student">Student</option>
+                  <option value="employed-full-time">Employed Full-time</option>
+                  <option value="employed-part-time">Employed Part-time</option>
+                  <option value="retired">Retired</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </fieldset>
+          
+            <fieldset>
+              <legend>How did you hear about our site?</legend>
+              <div>
+                <label><input type="radio" name="hear-about" value="social-media"> Social Media</label>
+              </div>
+              <div>
+                <label><input type="radio" name="hear-about" value="friend"> Friend</label>
+              </div>
+              <div>
+                <label><input type="radio" name="hear-about" value="search-engine"> Search Engine</label>
+              </div>
+              <div>
+                <label><input type="radio" name="hear-about" value="other"> Other</label>
+              </div>
+            </fieldset>
+          
+            <fieldset>
+              <legend>Tell Us what you think!</legend>
+              <div>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea>
+              </div>
+            </fieldset>
+          
+            <fieldset>
+              <legend>Submit</legend>
+              <div>
+                <label><input type="checkbox" name="robot" required> I am not a robot</label>
+              </div>
+              <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+              </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;2023, Darsh Patel, 8866300</p>
+    </footer>
+</body>
+</html>
